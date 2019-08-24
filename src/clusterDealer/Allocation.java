@@ -7,13 +7,13 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
+import java.sql.PreparedStatement;
 import java.sql.Statement;
+import java.sql.Time;
 import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 
 import java.util.*;
-
 
 //import weka.core.converters.ArffSaver;
 //import weka.core.converters.CSVLoader;
