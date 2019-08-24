@@ -25,7 +25,18 @@ import java.util.*;
 //import weka.experiment.Tester;
 
 
+
 public class Allocation  {
+	
+	
+	private static String database = "HSRP_AllocationDB";
+	private static String username = "root";
+	private static String password = "Redhat@1234";
+	private static final int NOT_ASSIGNED = 7;
+	
+	static Connection db;
+	static DatabaseMetaData dbmd;
+	
 	
 	
 	class orderContainer {
